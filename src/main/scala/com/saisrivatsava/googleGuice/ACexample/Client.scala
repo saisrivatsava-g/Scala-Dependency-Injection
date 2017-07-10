@@ -1,4 +1,4 @@
-package com.saisrivatsava.googleGuice
+package com.saisrivatsava.googleGuice.ACexample
 
 import com.google.inject.Inject
 

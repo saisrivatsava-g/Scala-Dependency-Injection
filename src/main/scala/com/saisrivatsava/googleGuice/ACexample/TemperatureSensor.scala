@@ -1,4 +1,5 @@
-package com.saisrivatsava.googleGuice
+package com.saisrivatsava.googleGuice.ACexample
+
 
 class TemperatureSensor extends SensorDevice{
   

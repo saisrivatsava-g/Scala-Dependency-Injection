@@ -1,7 +1,7 @@
-package com.saisrivatsava.googleGuice
+package com.saisrivatsava.googleGuice.ACexample
 
-import com.google.inject.Module
 import com.google.inject.Binder
+import com.google.inject.Module
 
 class DependencyModule extends Module {
   def configure(binder: Binder) = {
@@ -10,5 +10,4 @@ class DependencyModule extends Module {
     binder.bind(classOf[IAirConditioner]).to(classOf[AirConditioner])
     binder.bind(classOf[IClient]).to(classOf[Client])
   }
-
 }

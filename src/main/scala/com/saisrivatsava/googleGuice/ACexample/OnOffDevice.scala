@@ -1,4 +1,4 @@
-package com.saisrivatsava.googleGuice
+package com.saisrivatsava.googleGuice.ACexample
 
 trait OnOffDevice {
   def on: Unit
